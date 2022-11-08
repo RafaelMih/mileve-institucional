@@ -20,17 +20,17 @@ function App() {
   }, [action]);
 
   useEffect(() => {
-    let title = "";
+    let title = "Mileve - Mobilidade urbana é para todos";
     let metaDescription = "";
 
     //TODO: Update meta titles and descriptions below
     switch (pathname) {
       case "/":
-        title = "";
+        title = "Mileve - Mobilidade urbana é para todos";
         metaDescription = "";
         break;
       case "/institucional":
-        title = "";
+        title = "Mileve - Mobilidade urbana é para todos";
         metaDescription = "";
         break;
     }
